@@ -1,0 +1,18 @@
+body{
+    border-top: 2px solid black;
+    margin: 20px;
+}
+
+
+h4{
+    color: green;
+}
+
+.name{
+    color: blue;
+}
+
+p{ 
+    line-height: 8px;
+}
+
