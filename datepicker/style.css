@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 20%;
+    margin-right: 10%;
+}
+.sec1{
+    margin-left: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.sec1 p{
+    margin-left: 5px;
+}
+
+.sec1 i{
+    margin-right: 5px;
+}
+
+.code{
+    padding-top : 0px;
+    font-size:23px;
+}
+
+.sec2{
+ width: 200px;
+  margin-left: 50%;
+  border: 2px solid black;
+}
+.d1 , .d2
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.d3{
+    border: 1px solid black;
+    margin-left: 130px;
+    display: flex;
+    gap: 22px;
+}
+
+.d3 p{
+    border-left: 1px solid black;
+    gap: 2px;
+    padding-top: 5px;
+}
+
+
+
+
+.day-labels {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding-top: 5px;
+}
+
+
+.days-grid{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(7,1fr);
+    padding-top: 5px;
+}
+
+.days-grid span {
+    padding: 5px;
+    border: 1px solid black;
+    padding-bottom: 5px;
+}
